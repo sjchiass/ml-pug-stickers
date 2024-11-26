@@ -1,5 +1,7 @@
 # Setup
 
+(Note: this code requires a GPU with at least 8GB of VRAM.)
+
 These intructions come from: https://huggingface.co/docs/diffusers/main/en/installation For whatever reason, they're the only way to get the libraries properly installed.
 
 `conda create -n hug pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia`

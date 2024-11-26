@@ -90,6 +90,7 @@ for pug in data:
             variant="fp16",
         ).to("cuda:0")
 
+        # This seems necessary to make the model fit on my 1080 GPU
         pipeline.enable_model_cpu_offload()
 
         # load base and mask image
